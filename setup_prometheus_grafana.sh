@@ -75,3 +75,10 @@ sudo systemctl enable grafana-server
 echo "Instalação e configuração do Prometheus e Grafana concluída."
 echo "Acesse o Grafana via http://<SEU_IP>:3000 (login: admin, senha: admin)"
 echo "Acesse o Prometheus via http://<SEU_IP>:9090"
+
+#Para usar:
+#Salve o script como setup_prometheus_grafana.sh.
+#Dê permissão de execução:
+#chmod +x setup_prometheus_grafana.sh
+#sudo ./setup_prometheus_grafana.sh
+#Isso configurará o ambiente com o Prometheus e Grafana prontos para uso!
